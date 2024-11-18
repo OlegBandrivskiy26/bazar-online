@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+}
+/* --Загальні стилі для компонентів які повторються-- */
+.logo{
+    background-image: url(../img/logo-header.png);
+    background-size: cover;
+}
+.button__small{
+    width: 104px;
+    height: 29px;
+    border-radius: 30px;
+    border: none;
+    background-color: #626DE8;
+    color: #fff;
+    cursor: pointer;
+}
+/* --------------------------------------------------- */
